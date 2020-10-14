@@ -52,7 +52,7 @@ table {
 }
 
 .main {
-  width: auto;
+  width: 100%;
   height: auto;
   display: flex;
   background-color: #fff;
@@ -73,20 +73,20 @@ table {
 
 .gallery {
   width: auto;
-  height: auto;
+  height: 280px;
   display: flex;
   background-color: #fff;
   border-color: #eeeeef;
 }
 
 .gallery-body {
-  max-width: 1657px;
-  height: auto;
+  width: 1667px;
   margin: 0 auto;
   cursor: pointer;
 }
 
 .outer-body {
+  margin-top: 135px;
   width: auto;
 }
 
@@ -123,7 +123,7 @@ table {
 
 #homepage {
   position: absolute;
-  transform: scale(0.2, 0.2);
+  transform: scale(.1, 0.2);
 }
 
 .reviews {
@@ -152,7 +152,7 @@ table {
 
 .footer2{
   border-top: 1px solid #eeeeef;
-  width:1651px;
+  width:100%;
   height: auto;
   margin-bottom: -15px;
 }
